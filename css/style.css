@@ -1,0 +1,83 @@
+
+#home{
+    background-image: url(/images/bg_header.jpg);
+    background-size: cover;
+    height: 77rem;
+    width : 100%;
+}
+.logo{
+    height: 3rem;
+    padding-left: 20rem;
+}
+.test{
+    padding:13rem;
+    
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+header h1{
+    font-size: 5rem;
+}
+.colorb1{
+    background-color: rgba(61,193,196,255);
+    border: 2px solid rgba(61,193,196,255);
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.colorb2{
+    background-color: rgba(245,34,87,255);
+    border: 2px solid rgba(245,34,87,255);
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    
+}
+.navbarcolor{
+    background-color: rgba(51,51,49,255);
+    
+}
+.border-bottom{
+    border-color: rgba(64,64,62,255) !important;
+}
+#about{
+    background-image: url(/images/bg_nuage.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 43rem;
+    width: 100%;
+    padding-left: 20rem;
+}
+.boom{
+    background-color: rgba(127,188,219,255);
+    opacity: 60%;
+    height: 43rem;
+    width: 40%;
+}
+.borderabout{
+    border: 2px solid white;
+    height: 10rem;
+    width: 10rem;
+    
+}
+#blog img{
+    width: 25rem;
+    height: 25rem;
+}
+#photo{
+    background-image: url(/images/bg_appareil_photo.jpg);
+    height: 48rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.fondbleu{
+    background-color: rgba(127,188,219,255);
+    opacity: 60%;
+    height: 48rem;
+    width: 30%;
+    
+}
