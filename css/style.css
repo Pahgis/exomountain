@@ -2,6 +2,7 @@
 #home{
     background-image: url(/images/bg_header.jpg);
     background-size: cover;
+    background-position: center;
     height: 77rem;
     width : 100%;
 }

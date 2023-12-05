@@ -1,0 +1,129 @@
+#home{
+    background-image: url(/images/bg_header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 77rem;
+    width : 100%;
+}
+.logo{
+    height: 3rem;
+    padding-left: 5rem;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Rokkitt', serif;
+}
+
+h1 {
+    font-size: 3rem;
+}
+h1 span {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.3rem;
+}
+.colorb1{
+    background-color: rgba(61,193,196,255);
+    border: 2px solid rgba(61,193,196,255);
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.colorb2{
+    background-color: rgba(245,34,87,255);
+    border: 2px solid rgba(245,34,87,255);
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    
+}
+
+
+
+
+
+#about{
+
+    background-image: url(../images/bg_nuage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-cyan{
+    background-color: #00dffc88;
+}
+#blog img{
+    width: 25rem;
+    height: 25rem;
+}
+#history{
+    background-image: url(/images/bg_appareil_photo.jpg);
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#history .opacityBackground{
+    height: 48rem;
+}
+#about .opacityBackground{
+    height: 43rem;
+}
+
+#contact{
+    background-image: url(/images/bg_newsletter.jpg);
+    
+}
+#backtotop a:hover, a:active, a:link, a:visited{
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .logo{
+    padding-left:0rem;
+    }
+    header h1{
+        font-size: 3rem;
+    }
+    #partenaires img{
+        width: 50%;
+    }
+    .resp{
+         padding-top: 2rem;
+        margin-left: auto;
+    }
+    .navbar .offcanvas{
+        width: 10rem;
+    }
+    #blog img{
+        padding-right: 3rem;
+
+    }
+}
+
+@media (max-width: 992px) {
+    .logo{
+        padding-left:0rem;
+    }
+    #home{
+        height:45rem;
+    }
+}
